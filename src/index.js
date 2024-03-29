@@ -7,6 +7,7 @@ dotenv.config({
     path : '/.env'
 })
 // change in to checxk git
+
 connectDB()
 .then(()=>{
     app.listen(process.env.PORT||8000 , ()=>{
@@ -19,7 +20,7 @@ connectDB()
 
 
 
-
+// nowsecond attempy
 
 // Second Approach
 
